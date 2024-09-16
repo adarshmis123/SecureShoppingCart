@@ -1,0 +1,49 @@
+Save Ewallet Json object
+{
+    "currentBalance" : 0.00,
+    "statements" : [
+        {
+            "transactionType" : "CREDIT",
+            "amount" : 100.0,
+            "dateTime" : "2024-09-15T14:30:00",
+            "orderId" : 2001,
+            "card" : "DEBITCARD",
+            "cardNumber" : "9876 4567 7568",
+            "transactionRemarks" : "Credited 100"
+        },
+        {
+            "transactionType" : "CREDIT",
+            "amount" : 200.0,
+            "dateTime" : "2024-09-15T15:30:00",
+            "orderId" : 2002,
+            "card" : "DEBITCARD",
+            "cardNumber" : "9876 4567 7568",
+            "transactionRemarks" : "Credited 200"
+        },
+        {
+           "transactionType" : "DEBIT",
+            "amount" : 50.0,
+            "dateTime" : "2024-09-15T15:40:00",
+            "orderId" : 2003,
+            "card" : "CREDITCARD",
+            "cardNumber" : "9876 4567 7568",
+            "transactionRemarks" : "Debited 50"
+        }
+        
+    ]
+}
+
+=================
+
+UpdateWalletMoneyDto json
+
+{
+    "walletId" : 1,
+    "transactionType" : "DEBIT",
+    "amount" : 500.0,
+    "dateTime" : "2024-09-15T15:30:00",
+    "orderId" : 2003,
+    "card" : "DEBITCARD",
+    "cardNumber" : "9876 4567 7568",
+    "transactionRemarks" : "Credited 200"
+}

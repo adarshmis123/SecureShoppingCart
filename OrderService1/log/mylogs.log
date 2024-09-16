@@ -1,0 +1,96 @@
+[INFO ] 16-09-2024 04:59:23.512 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Placing order for user: 0
+[INFO ] 16-09-2024 04:59:23.660 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Calling wallet service to process payment
+[ERROR] 16-09-2024 04:59:23.697 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Payment failed for user: 0
+[INFO ] 16-09-2024 05:04:15.744 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Placing order for user: 0
+[INFO ] 16-09-2024 05:04:15.763 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Calling wallet service to process payment
+[ERROR] 16-09-2024 05:04:15.785 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Payment failed for user: 0
+[INFO ] 16-09-2024 05:04:54.599 pm [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Placing order for user: 0
+[INFO ] 16-09-2024 05:04:54.620 pm [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Calling wallet service to process payment
+[ERROR] 16-09-2024 05:04:54.639 pm [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Payment failed for user: 0
+[INFO ] 16-09-2024 05:04:59.601 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Placing order for user: 0
+[INFO ] 16-09-2024 05:04:59.618 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Calling wallet service to process payment
+[ERROR] 16-09-2024 05:04:59.635 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Payment failed for user: 0
+[INFO ] 16-09-2024 05:06:37.306 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Placing order for user: 0
+[INFO ] 16-09-2024 05:06:37.326 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Calling wallet service to process payment
+[ERROR] 16-09-2024 05:06:37.342 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Payment failed for user: 0
+[INFO ] 16-09-2024 08:11:44.026 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Fetching order details for order ID: 1
+[INFO ] 16-09-2024 08:17:32.088 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Fetching order details for order ID: 1
+[INFO ] 16-09-2024 08:31:54.134 pm [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Fetching all orders.
+[INFO ] 16-09-2024 08:33:01.116 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[ERROR] 16-09-2024 08:33:01.470 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Payment failed for userId: 2
+[INFO ] 16-09-2024 08:34:39.613 pm [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 1
+[INFO ] 16-09-2024 08:34:54.547 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 2
+[ERROR] 16-09-2024 08:34:54.552 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - No orders found for userId: 2
+[INFO ] 16-09-2024 08:36:00.203 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Attempting to delete order with orderId: 3 for userId: 1
+[INFO ] 16-09-2024 08:36:00.308 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Order with orderId: 3 successfully deleted.
+[INFO ] 16-09-2024 08:36:14.852 pm [http-nio-7772-exec-8]  com.cg.service.OrderServiceImpl - Fetching all orders.
+[INFO ] 16-09-2024 08:36:58.481 pm [http-nio-7772-exec-9]  com.cg.service.OrderServiceImpl - Attempting to cancel order with orderId: 2 for userId: 1
+[INFO ] 16-09-2024 08:37:59.351 pm [http-nio-7772-exec-10]  com.cg.service.OrderServiceImpl - Attempting to cancel order with orderId: 2 for userId: 1
+[INFO ] 16-09-2024 08:38:07.962 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Fetching all orders.
+[INFO ] 16-09-2024 08:38:17.503 pm [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Fetching all orders.
+[INFO ] 16-09-2024 08:38:29.667 pm [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Attempting to cancel order with orderId: 1 for userId: 1
+[INFO ] 16-09-2024 08:39:26.530 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Fetching order with orderId: 1
+[INFO ] 16-09-2024 08:42:55.463 pm [http-nio-7772-exec-9]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[ERROR] 16-09-2024 08:42:55.539 pm [http-nio-7772-exec-9]  com.cg.service.OrderServiceImpl - Payment failed for userId: 2
+[INFO ] 16-09-2024 08:43:08.329 pm [http-nio-7772-exec-10]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[ERROR] 16-09-2024 08:43:08.386 pm [http-nio-7772-exec-10]  com.cg.service.OrderServiceImpl - Payment failed for userId: 2
+[INFO ] 16-09-2024 08:44:35.574 pm [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 16-09-2024 08:44:35.835 pm [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 8
+[INFO ] 16-09-2024 08:47:14.609 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 1
+[INFO ] 16-09-2024 08:47:30.662 pm [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 2
+[INFO ] 16-09-2024 08:47:41.458 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 3
+[ERROR] 16-09-2024 08:47:41.462 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - No orders found for userId: 3
+[INFO ] 16-09-2024 08:47:52.465 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 4
+[ERROR] 16-09-2024 08:47:52.471 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - No orders found for userId: 4
+[INFO ] 16-09-2024 08:47:59.577 pm [http-nio-7772-exec-8]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 2
+[INFO ] 16-09-2024 08:49:35.343 pm [http-nio-7772-exec-10]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 16-09-2024 08:49:35.405 pm [http-nio-7772-exec-10]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 9
+[INFO ] 16-09-2024 08:51:12.662 pm [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Fetching all orders.
+[INFO ] 16-09-2024 09:06:48.198 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 16-09-2024 09:06:48.255 pm [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 10
+[INFO ] 16-09-2024 09:08:28.442 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 16-09-2024 09:08:28.495 pm [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 11
+[INFO ] 16-09-2024 09:08:43.202 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 16-09-2024 09:08:43.249 pm [http-nio-7772-exec-7]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 12
+[INFO ] 16-09-2024 09:25:32.306 pm [http-nio-7772-exec-9]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 16-09-2024 09:25:32.368 pm [http-nio-7772-exec-9]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 13
+[INFO ] 16-09-2024 09:32:32.162 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 16-09-2024 09:32:32.210 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 14
+[INFO ] 16-09-2024 09:34:58.467 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[ERROR] 16-09-2024 09:34:58.719 pm [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Payment failed for userId: 2
+[INFO ] 17-09-2024 12:45:56.825 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Fetching all orders.
+[INFO ] 17-09-2024 12:46:37.729 am [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 2
+[INFO ] 17-09-2024 12:49:07.212 am [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 12:50:24.077 am [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 12:52:35.829 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:01:35.439 am [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:03:39.897 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:05:13.478 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:05:13.596 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 15
+[INFO ] 17-09-2024 01:12:04.430 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:12:04.747 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 16
+[INFO ] 17-09-2024 01:15:56.119 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:15:56.253 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 17
+[INFO ] 17-09-2024 01:20:18.296 am [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:20:18.361 am [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 18
+[INFO ] 17-09-2024 01:20:55.718 am [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:20:55.792 am [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 19
+[INFO ] 17-09-2024 01:25:17.205 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:31:20.998 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:31:21.321 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 20
+[INFO ] 17-09-2024 01:34:03.347 am [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:34:03.421 am [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 21
+[INFO ] 17-09-2024 01:36:17.364 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:36:17.510 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 22
+[INFO ] 17-09-2024 01:39:10.185 am [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Fetching all orders.
+[INFO ] 17-09-2024 01:39:35.952 am [http-nio-7772-exec-4]  com.cg.service.OrderServiceImpl - Fetching orders for userId: 2
+[INFO ] 17-09-2024 01:40:11.081 am [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Attempting to cancel order with orderId: 1 for userId: 1
+[INFO ] 17-09-2024 01:40:44.196 am [http-nio-7772-exec-6]  com.cg.service.OrderServiceImpl - Attempting to cancel order with orderId: 2 for userId: 1
+[INFO ] 17-09-2024 01:45:20.943 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[ERROR] 17-09-2024 01:45:21.067 am [http-nio-7772-exec-1]  com.cg.service.OrderServiceImpl - Payment failed for userId: 2
+[INFO ] 17-09-2024 01:46:50.206 am [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:46:50.287 am [http-nio-7772-exec-2]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 23
+[INFO ] 17-09-2024 01:47:19.865 am [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:47:19.941 am [http-nio-7772-exec-3]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 24
+[INFO ] 17-09-2024 01:51:49.057 am [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Starting order placement for user: ram
+[INFO ] 17-09-2024 01:51:49.133 am [http-nio-7772-exec-5]  com.cg.service.OrderServiceImpl - Order placed successfully with orderId: 25

@@ -1,0 +1,1449 @@
+2024-09-16 00h00 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h05 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h10 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h15 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h20 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h25 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h30 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h35 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h40 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h45 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h50 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 00h55 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h00 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h05 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h10 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h15 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h15 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 01h15 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 01h15 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726429549595, current=DOWN, previous=UP]
+2024-09-16 01h15 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 01h15 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 01h15 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 01h15 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 01h15 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 01h15 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 01h15 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 01h15 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - deregister  status: 200
+2024-09-16 01h15 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2024-09-16 01h15 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 9480 (C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1)
+2024-09-16 01h15 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 01h15 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 01h15 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 01h15 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 01h15 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 296 ms. Found 2 JPA repository interfaces.
+2024-09-16 01h15 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 01h15 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 01h15 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 01h15 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 01h15 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 01h15 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 01h16 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 01h16 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2990 ms
+2024-09-16 01h16 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 01h16 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 01h16 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 01h16 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 01h16 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 01h16 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4070b0b7
+2024-09-16 01h16 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 01h16 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 01h16 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 01h16 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 01h16 WARN   o.h.t.s.i.ExceptionHandlerLoggedImpl : GenerationTarget encountered exception accepting command : Error executing DDL "create table order (order_id integer not null auto_increment, created_at datetime(6), order_status enum ('PAID','PENDING','SHIPPED'), payment_method varchar(255), payment_status enum ('FAILED','PAID','PENDING'), host varchar(255), port integer, total_amount float(53) not null, updated_at datetime(6), user_id integer not null, primary key (order_id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id integer not null auto_increment, created_at datetime(6), order_s' at line 1]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table order (order_id integer not null auto_increment, created_at datetime(6), order_status enum ('PAID','PENDING','SHIPPED'), payment_method varchar(255), payment_status enum ('FAILED','PAID','PENDING'), host varchar(255), port integer, total_amount float(53) not null, updated_at datetime(6), user_id integer not null, primary key (order_id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id integer not null auto_increment, created_at datetime(6), order_s' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:575)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:515)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:315)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1705)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1454)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.cg.OrderService1Application.main(OrderService1Application.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id integer not null auto_increment, created_at datetime(6), order_s' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 126 common frames omitted
+2024-09-16 01h16 WARN   o.h.t.s.i.ExceptionHandlerLoggedImpl : GenerationTarget encountered exception accepting command : Error executing DDL "alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order (order_id)" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id)' at line 1]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order (order_id)" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id)' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:575)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:515)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:447)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:268)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1705)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1454)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.cg.OrderService1Application.main(OrderService1Application.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id)' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 125 common frames omitted
+2024-09-16 01h16 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 01h16 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 01h16 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 01h16 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 01h16 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 01h16 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 01h16 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 01h16 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 01h16 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 01h16 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 01h16 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726429564275 with initial instances count: 7
+2024-09-16 01h16 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726429564282, current=UP, previous=STARTING]
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 01h16 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 01h16 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 01h16 INFO   com.cg.OrderService1Application : Started OrderService1Application in 8.008 seconds (process running for 9.335)
+2024-09-16 01h16 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 01h16 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 01h16 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 01h16 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2024-09-16 01h16 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [feign.FeignException$NotFound: [404] during [POST] to [http://WALLETSERVICE/pay/1/9999.689999999999?id=1&totalAmount=9999.689999999999] [WalletServiceClient#pay(int,double)]: [{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource pay/1/9999.689999999999.","instance":"/pay/1/9999.689999999999"}]]
+2024-09-16 01h17 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [feign.FeignException$NotFound: [404] during [POST] to [http://WALLETSERVICE/pay/1/9999.689999999999?id=1&totalAmount=9999.689999999999] [WalletServiceClient#pay(int,double)]: [{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource pay/1/9999.689999999999.","instance":"/pay/1/9999.689999999999"}]]
+2024-09-16 01h19 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [feign.FeignException$NotFound: [404] during [POST] to [http://WALLETSERVICE/pay/1/9999.689999999999?id=1&totalAmount=9999.689999999999] [WalletServiceClient#pay(int,double)]: [{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource pay/1/9999.689999999999.","instance":"/pay/1/9999.689999999999"}]]
+2024-09-16 01h21 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h24 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [feign.FeignException$NotFound: [404] during [POST] to [http://WALLETSERVICE/pay/1/9999.689999999999?id=1&totalAmount=9999.689999999999] [WalletServiceClient#pay(int,double)]: [{"type":"about:blank","title":"Not Found","status":404,"detail":"No static resource pay/1/9999.689999999999.","instance":"/pay/1/9999.689999999999"}]]
+2024-09-16 01h26 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h31 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h36 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h41 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h46 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h51 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h55 WARN   o.h.e.jdbc.spi.SqlExceptionHelper : SQL Error: 1064, SQLState: 42000
+2024-09-16 01h55 ERROR  o.h.e.jdbc.spi.SqlExceptionHelper : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (created_at,order_status,payment_method,payment_status,host,port,total_amo' at line 1
+2024-09-16 01h55 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (created_at,order_status,payment_method,payment_status,host,port,total_amo' at line 1] [insert into order (created_at,order_status,payment_method,payment_status,host,port,total_amount,updated_at,user_id) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into order (created_at,order_status,payment_method,payment_status,host,port,total_amount,updated_at,user_id) values (?,?,?,?,?,?,?,?,?)]]
+2024-09-16 01h56 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h58 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 01h58 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726432113160, current=DOWN, previous=UP]
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 01h58 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 01h58 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 01h58 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - deregister  status: 200
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2024-09-16 01h58 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 25652 (C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1)
+2024-09-16 01h58 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 01h58 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 01h58 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 01h58 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 01h58 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 2 JPA repository interfaces.
+2024-09-16 01h58 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 01h58 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 01h58 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 01h58 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 01h58 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 01h58 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 01h58 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 01h58 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2120 ms
+2024-09-16 01h58 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 01h58 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 01h58 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 01h58 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 01h58 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 01h58 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@147f11ce
+2024-09-16 01h58 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 01h58 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 01h58 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 01h58 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 01h58 WARN   o.h.t.s.i.ExceptionHandlerLoggedImpl : GenerationTarget encountered exception accepting command : Error executing DDL "create table order (order_id integer not null auto_increment, created_at datetime(6), order_status enum ('PAID','PENDING','SHIPPED'), payment_method varchar(255), payment_status enum ('FAILED','PAID','PENDING'), host varchar(255), port integer, total_amount float(53) not null, updated_at datetime(6), user_id integer not null, primary key (order_id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id integer not null auto_increment, created_at datetime(6), order_s' at line 1]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table order (order_id integer not null auto_increment, created_at datetime(6), order_status enum ('PAID','PENDING','SHIPPED'), payment_method varchar(255), payment_status enum ('FAILED','PAID','PENDING'), host varchar(255), port integer, total_amount float(53) not null, updated_at datetime(6), user_id integer not null, primary key (order_id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id integer not null auto_increment, created_at datetime(6), order_s' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:575)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:515)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:315)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:80)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1705)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1454)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.cg.OrderService1Application.main(OrderService1Application.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id integer not null auto_increment, created_at datetime(6), order_s' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 126 common frames omitted
+2024-09-16 01h58 WARN   o.h.t.s.i.ExceptionHandlerLoggedImpl : GenerationTarget encountered exception accepting command : Error executing DDL "alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order (order_id)" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id)' at line 1]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order (order_id)" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id)' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:575)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:515)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:447)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:268)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1705)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1454)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.cg.OrderService1Application.main(OrderService1Application.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (order_id)' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 125 common frames omitted
+2024-09-16 01h58 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 01h58 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 01h58 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 01h58 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 01h58 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 01h58 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 01h58 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 01h58 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 01h58 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 01h58 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 01h58 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726432126842 with initial instances count: 7
+2024-09-16 01h58 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726432126850, current=UP, previous=STARTING]
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 01h58 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 01h58 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 01h58 INFO   com.cg.OrderService1Application : Started OrderService1Application in 7.115 seconds (process running for 8.226)
+2024-09-16 01h58 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 01h59 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 01h59 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 01h59 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2024-09-16 01h59 WARN   o.h.e.jdbc.spi.SqlExceptionHelper : SQL Error: 1064, SQLState: 42000
+2024-09-16 01h59 ERROR  o.h.e.jdbc.spi.SqlExceptionHelper : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (created_at,order_status,payment_method,payment_status,host,port,total_amo' at line 1
+2024-09-16 01h59 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order (created_at,order_status,payment_method,payment_status,host,port,total_amo' at line 1] [insert into order (created_at,order_status,payment_method,payment_status,host,port,total_amount,updated_at,user_id) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into order (created_at,order_status,payment_method,payment_status,host,port,total_amount,updated_at,user_id) values (?,?,?,?,?,?,?,?,?)]]
+2024-09-16 02h03 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 02h03 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726432399709, current=DOWN, previous=UP]
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 02h03 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 02h03 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 02h03 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - deregister  status: 200
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2024-09-16 02h03 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 160 (C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1)
+2024-09-16 02h03 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 02h03 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 02h03 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 02h03 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 02h03 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 267 ms. Found 2 JPA repository interfaces.
+2024-09-16 02h03 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 02h03 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 02h03 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 02h03 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 02h03 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 02h03 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 02h03 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 02h03 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2828 ms
+2024-09-16 02h03 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 02h03 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 02h03 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 02h03 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 02h03 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 02h03 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56e84410
+2024-09-16 02h03 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 02h03 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 02h03 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 02h03 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 02h03 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 02h03 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 02h03 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 02h03 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 02h03 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 02h03 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 02h03 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 02h03 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 02h03 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 02h03 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 02h03 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726432414531 with initial instances count: 7
+2024-09-16 02h03 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726432414537, current=UP, previous=STARTING]
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 02h03 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 02h03 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 02h03 INFO   com.cg.OrderService1Application : Started OrderService1Application in 8.009 seconds (process running for 9.343)
+2024-09-16 02h03 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 02h04 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 02h04 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 02h04 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 6 ms
+2024-09-16 02h08 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 02h13 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 02h16 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource getById/1.]
+2024-09-16 02h18 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource getById/1.]
+2024-09-16 02h18 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 02h19 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 02h19 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726433381625, current=DOWN, previous=UP]
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 02h19 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 02h19 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 02h19 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - deregister  status: 200
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2024-09-16 02h19 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 28316 (C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1)
+2024-09-16 02h19 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 02h19 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 02h19 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 02h19 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 02h19 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 2 JPA repository interfaces.
+2024-09-16 02h19 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 02h19 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 02h19 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 02h19 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 02h19 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 02h19 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 02h19 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 02h19 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2061 ms
+2024-09-16 02h19 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 02h19 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 02h19 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 02h19 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 02h19 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 02h19 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55e73323
+2024-09-16 02h19 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 02h19 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 02h19 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 02h19 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 02h19 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 02h19 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 02h19 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 02h19 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 02h19 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 02h19 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 02h19 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 02h19 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 02h19 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 02h19 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 02h19 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726433395117 with initial instances count: 6
+2024-09-16 02h19 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726433395125, current=UP, previous=STARTING]
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 02h19 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 02h19 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 02h19 INFO   com.cg.OrderService1Application : Started OrderService1Application in 7.108 seconds (process running for 8.258)
+2024-09-16 02h19 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 02h20 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 02h20 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 02h20 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2024-09-16 02h20 WARN   o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource get/1.]
+2024-09-16 02h23 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 02h23 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726433624453, current=DOWN, previous=UP]
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 02h23 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 02h23 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 02h23 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - deregister  status: 200
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2024-09-16 02h23 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 8420 (C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1)
+2024-09-16 02h23 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 02h23 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 02h23 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 02h23 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 02h23 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 163 ms. Found 2 JPA repository interfaces.
+2024-09-16 02h23 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 02h23 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 02h23 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 02h23 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 02h23 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 02h23 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 02h23 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 02h23 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2034 ms
+2024-09-16 02h23 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 02h23 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 02h23 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 02h23 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 02h23 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 02h23 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ef84741
+2024-09-16 02h23 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 02h23 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 02h23 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 02h23 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 02h23 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 02h23 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 02h23 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 02h23 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 02h23 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 02h23 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 02h23 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 02h23 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 02h23 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 02h23 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 02h23 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726433637828 with initial instances count: 6
+2024-09-16 02h23 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726433637835, current=UP, previous=STARTING]
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 02h23 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 02h23 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 02h23 INFO   com.cg.OrderService1Application : Started OrderService1Application in 6.78 seconds (process running for 7.881)
+2024-09-16 02h23 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 02h24 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 02h24 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 02h24 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2024-09-16 09h47 WARN   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h21m49s927ms232µs700ns).
+2024-09-16 09h49 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 09h49 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 09h49 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726460355302, current=DOWN, previous=UP]
+2024-09-16 09h49 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 09h49 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 09h49 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 09h49 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 09h49 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 09h49 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 09h49 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 09h49 INFO   c.n.d.s.t.d.RedirectingEurekaHttpClient : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1156)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1102)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:170)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 68 more
+
+2024-09-16 09h49 WARN   c.n.d.s.t.d.RetryableEurekaHttpClient : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-09-16 09h49 INFO   c.n.d.s.t.d.RedirectingEurekaHttpClient : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1156)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1102)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:170)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 69 more
+
+2024-09-16 09h49 WARN   c.n.d.s.t.d.RetryableEurekaHttpClient : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-09-16 09h49 ERROR  c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1156)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1102)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-16 09h49 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2024-09-16 09h50 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 23348 (C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Downloads\NewOrderService\OrderService1)
+2024-09-16 09h50 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 09h50 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 09h50 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 09h50 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 09h50 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 473 ms. Found 2 JPA repository interfaces.
+2024-09-16 09h50 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 09h50 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 09h50 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 09h50 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 09h50 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 09h50 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 09h50 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 09h50 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5235 ms
+2024-09-16 09h50 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 09h50 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 09h50 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 09h50 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 09h50 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 09h50 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c9a86cd
+2024-09-16 09h50 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 09h50 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 09h50 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 09h50 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 09h50 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 09h50 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 09h50 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 09h50 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 09h50 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 09h50 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 09h50 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 09h50 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 09h50 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 09h50 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 09h50 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726460436595 with initial instances count: 2
+2024-09-16 09h50 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726460436610, current=UP, previous=STARTING]
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 09h50 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 09h50 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 09h50 INFO   com.cg.OrderService1Application : Started OrderService1Application in 18.429 seconds (process running for 20.816)
+2024-09-16 09h50 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 09h53 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 09h53 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 09h53 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 5 ms
+2024-09-16 09h55 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 10h00 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 10h05 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 10h10 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 10h15 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 14h49 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 18664 (C:\Users\ADAMISHR\Desktop\SecureShoppingCart\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Desktop\SecureShoppingCart\OrderService1)
+2024-09-16 14h49 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 14h49 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 14h49 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 14h49 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 14h49 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 947 ms. Found 2 JPA repository interfaces.
+2024-09-16 14h49 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 14h49 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 14h49 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 14h49 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 14h49 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 14h49 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 14h49 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 14h49 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10817 ms
+2024-09-16 14h49 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 14h49 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 14h49 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 14h49 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 14h49 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 14h49 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b4522d0
+2024-09-16 14h49 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 14h49 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 14h49 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 14h49 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 14h49 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 14h49 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 14h49 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 14h49 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 14h49 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 14h49 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 14h49 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 14h49 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 14h49 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 14h49 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 14h49 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726478372967 with initial instances count: 3
+2024-09-16 14h49 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726478373002, current=UP, previous=STARTING]
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 14h49 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 14h49 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 14h49 INFO   com.cg.OrderService1Application : Started OrderService1Application in 32.302 seconds (process running for 36.691)
+2024-09-16 14h49 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 14h54 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 14h59 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h04 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h09 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h14 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h19 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h24 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h25 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 15h25 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 15h25 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 6 ms
+2024-09-16 15h29 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h34 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h39 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h44 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h49 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h54 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 15h59 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h04 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h09 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h14 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h19 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h24 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h29 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h34 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 16h34 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726484640680, current=DOWN, previous=UP]
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 16h34 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 16h34 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 16h34 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - deregister  status: 200
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2024-09-16 16h34 INFO   com.cg.OrderService1Application : Starting OrderService1Application using Java 21.0.3 with PID 19752 (C:\Users\ADAMISHR\Desktop\SecureShoppingCart\OrderService1\target\classes started by adamishr in C:\Users\ADAMISHR\Desktop\SecureShoppingCart\OrderService1)
+2024-09-16 16h34 INFO   com.cg.OrderService1Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-16 16h34 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16 16h34 INFO   o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16 16h34 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16 16h34 INFO   o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 329 ms. Found 2 JPA repository interfaces.
+2024-09-16 16h34 INFO   o.s.cloud.context.scope.GenericScope : BeanFactory id=93fee2a4-023e-3105-98d0-cc731f2e5eae
+2024-09-16 16h34 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-16 16h34 WARN   o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-16 16h34 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 7772 (http)
+2024-09-16 16h34 INFO   o.a.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-16 16h34 INFO   o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16 16h34 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-16 16h34 INFO   o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3888 ms
+2024-09-16 16h34 INFO   o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16 16h34 INFO   org.hibernate.Version : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16 16h34 INFO   o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2024-09-16 16h34 INFO   o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16 16h34 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2024-09-16 16h34 INFO   com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7af822ea
+2024-09-16 16h34 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2024-09-16 16h34 WARN   org.hibernate.orm.deprecation : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16 16h34 WARN   org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16 16h34 INFO   o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16 16h34 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 16h34 WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16 16h34 WARN   o.s.b.d.a.OptionalLiveReloadServer : Unable to start LiveReload server
+2024-09-16 16h34 INFO   o.s.c.o.FeignClientFactoryBean : For 'cartservice' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 16h34 INFO   o.s.c.o.FeignClientFactoryBean : For 'WALLETSERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-09-16 16h34 WARN   o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-09-16 16h34 INFO   o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-16 16h34 WARN   o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-16 16h34 INFO   o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2024-09-16 16h34 INFO   c.n.d.s.r.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Disable delta property : false
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Application is null : false
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Application version is -1: true
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : The response status is 200
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2024-09-16 16h34 INFO   c.n.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1726484661830 with initial instances count: 7
+2024-09-16 16h34 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Registering application ORDERSERVICE with eureka with status UP
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726484661842, current=UP, previous=STARTING]
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 16h34 INFO   o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 7772 (http) with context path '/'
+2024-09-16 16h34 INFO   o.s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 7772
+2024-09-16 16h34 INFO   com.cg.OrderService1Application : Started OrderService1Application in 12.199 seconds (process running for 14.225)
+2024-09-16 16h34 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 16h35 INFO   o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16 16h35 INFO   o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-16 16h35 INFO   o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2024-09-16 16h38 INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-16 16h38 INFO   o.s.c.n.e.s.EurekaServiceRegistry : Unregistering application ORDERSERVICE with eureka with status DOWN
+2024-09-16 16h38 INFO   c.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1726484924266, current=DOWN, previous=UP]
+2024-09-16 16h38 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772: registering service...
+2024-09-16 16h38 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - registration status: 204
+2024-09-16 16h38 INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16 16h38 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2024-09-16 16h38 INFO   com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2024-09-16 16h38 INFO   c.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2024-09-16 16h38 INFO   c.netflix.discovery.DiscoveryClient : Unregistering ...
+2024-09-16 16h38 INFO   c.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDERSERVICE/LIN-5CG11529M0.corp.capgemini.com:OrderService:7772 - deregister  status: 200
+2024-09-16 16h38 INFO   c.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
